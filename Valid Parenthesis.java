@@ -1,9 +1,8 @@
 class Solution {
     public boolean isValid(String s) {
         if(s.length() == 0)
-            return false;
-        Stack<Character> stack = new Stack<Character>();
-        stack.push(s.charAt(0));
+            return true;
+        Stack<Character> stack = new Stack<Character>();     
         int i = 0;
         while(i<s.length())
         {            
