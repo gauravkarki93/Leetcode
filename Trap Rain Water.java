@@ -1,3 +1,10 @@
+/*
+LOGIC
+- Keep 2 pointer left and right
+- Find max left height and max right height 
+- Choose the min of 2 heights and subtract from current height to find water at ith level
+- keep adding it to result
+*/
 class Solution {
     public int trap(int[] height) {
         int max_left = 0;
